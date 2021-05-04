@@ -1,0 +1,278 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 18546730244,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.test1()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Validate the Redmi mobile search",
+        "description": "",
+        "id": "to-verify-flipkart-product;validate-the-redmi-mobile-search;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 112296,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.testEnd()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 329596999,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User close the login popup",
+            "match": {
+              "location": "FlipkartClassPage.user_close_the_login_popup()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 292388612,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User searches the product \"Redmi Mobile\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Redmi Mobile\"",
+                  "offset": 26
+                }
+              ],
+              "location": "FlipkartClassPage.user_searches_the_product(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 234384462,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click search",
+            "match": {
+              "location": "FlipkartClassPage.user_click_search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4201183085,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User gets mobile model and price",
+            "match": {
+              "location": "FlipkartClassPage.user_gets_mobile_model_and_price()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1031182476,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User stores the mobile model and price in excel",
+            "match": {
+              "location": "FlipkartClassPage.user_stores_the_mobile_model_and_price_in_excel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44073,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User in redmi page",
+            "match": {
+              "location": "FlipkartClassPage.user_in_redmi_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@vicky"
+          }
+        ]
+      }
+    ],
+    "name": "To verify flipkart product",
+    "description": "",
+    "id": "to-verify-flipkart-product",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/A-FlipkartRedmiMobile.feature",
+    "tags": [
+      {
+        "name": "@vicky",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12450592781,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.test1()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "To validate lowest priced mobile",
+        "description": "",
+        "id": "to-validate-lowest-priced-mobile;to-validate-lowest-priced-mobile",
+        "after": [
+          {
+            "result": {
+              "duration": 143690,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.testEnd()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 302014011,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User close the login popup",
+            "match": {
+              "location": "FlipkartClassPage.user_close_the_login_popup()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 289650659,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User gets Price from excel",
+            "match": {
+              "location": "GflipkarttClassPage.user_gets_Price_from_excel()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 44053571,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User evaluate for low price",
+            "match": {
+              "location": "GflipkarttClassPage.user_evaluate_for_low_price()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4353924630,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on low price mobile",
+            "match": {
+              "location": "GflipkarttClassPage.user_click_on_low_price_mobile()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18644152463,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User handles window and takescreenshot",
+            "match": {
+              "location": "GflipkarttClassPage.user_handles_window_and_takescreenshot()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5194854097,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user close the window",
+            "match": {
+              "location": "GflipkarttClassPage.user_close_the_window()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1171925327,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User quits browser",
+            "match": {
+              "location": "GflipkarttClassPage.user_quits_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@vicky2"
+          }
+        ]
+      }
+    ],
+    "name": "To validate lowest Priced Mobile",
+    "description": "",
+    "id": "to-validate-lowest-priced-mobile",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/B-FindLowPricedRedMiMob.feature",
+    "tags": [
+      {
+        "name": "@vicky2",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
